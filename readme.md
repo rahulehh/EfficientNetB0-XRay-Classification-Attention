@@ -34,33 +34,6 @@ This model extends the previous architecture by adding **attention mechanisms** 
 - pandas
 - numpy
 
-## Setup
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/chest-xray-classification.git
-    cd chest-xray-classification
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Ensure that your dataset is properly placed in the `/datasets` directory.
-
-## Training the Models
-
-1. **Without Attention**: 
-    ```python
-    python ChestXRayClassificationWithoutAttention.py
-    ```
-
-2. **With Attention**:
-    ```python
-    python ChestXRayClassificationWithAttention.py
-    ```
-
 ## Results
 
 - **K-Fold Cross Validation**: Both models are evaluated with 5-fold cross-validation to ensure generalization.
