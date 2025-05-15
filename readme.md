@@ -25,8 +25,8 @@ This model extends the previous architecture by adding **attention mechanisms** 
 
 ## Requirements
 
-- Python 3.x
-- TensorFlow 2.x
+- Python 3.11
+- TensorFlow 2.9
 - Keras
 - scikit-learn
 - Matplotlib
